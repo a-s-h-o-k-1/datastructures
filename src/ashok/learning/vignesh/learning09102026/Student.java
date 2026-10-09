@@ -38,4 +38,8 @@ public class Student {
     public void setName(String name) {
         this.name = name;
     }
+
+    public void printName(){
+        System.out.println("name of the student: "+name);
+    }
 }
