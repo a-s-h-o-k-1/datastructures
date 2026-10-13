@@ -1,14 +1,22 @@
 package ashok.learning.vignesh.learning12102026;
 
-import java.util.Random;
+
+import java.util.Arrays;
 
 public class Main {
-    static int number;
+    static String[] teachers;
+    static{
+      teachers= new String[3];
+      teachers[0]="harsha";
+      teachers[1]="ashok";
+      teachers[2]="sravani";
+    }
 
     public static void main(String[] args) {
 
         College college = new College();
         college.setName("krishna-chaitanya");
+        College.setTeachers(Arrays.toString(teachers));
 
         College college1 = new College();
         college1.setName("Narayana");
