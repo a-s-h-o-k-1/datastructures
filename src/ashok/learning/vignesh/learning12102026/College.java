@@ -1,7 +1,7 @@
 package ashok.learning.vignesh.learning12102026;
 
 public class College {
-    String name = "Rao'sCollege";
+    static String name = "Rao'sCollege";
     Student student;
 
     public void setName(String name) {
