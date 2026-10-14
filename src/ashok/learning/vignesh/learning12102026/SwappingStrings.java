@@ -5,8 +5,26 @@ public class SwappingStrings {
         String a = "HELLO";
         String b = "JAVA";
 
-        swap(a, b);
+//        swap(a, b);
+        swapwithVariable("Ashok ","kumar");
     }
+
+    public static void swapwithVariable(String a , String b){
+        System.out.println("Before swapping");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        String temp ="";
+        temp =a;
+        a =b;
+        b= temp;
+        System.out.println("After swapping");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+
+    }
+
+
+
 
     public static void swap(String a, String b) {
         System.out.println("Before swapping");
