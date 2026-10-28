@@ -2,7 +2,7 @@ package learning17102026;
 
 import java.util.Arrays;
 
-public class practise {
+public class Practise {
 
 
     public static void main(String[] args) {
